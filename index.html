@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kashmir Tour Packages – Book Your Escape Today | Snap Vacations</title>
+  <meta name="description" content="Explore Kashmir tour packages in India with Snap Vacations. Check holiday deals, itineraries & trip costs. Plan Your Escape Today.">
+  <meta name="author" content="Anees Irshad Bhat">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="media.css">
+</head>
+<body>
+  <!-- PRELOADER -->
+  <div id="preloader">
+  <div class="loader-circle"></div>
+  <div class="loader-text">Snap Vacations</div>
+</div>
+
+
+  <!-- HEADER -->
+  <header id="head">
+    <img 
+  src="img/snapvacations logo.webp"
+  srcset="
+    img/snapvacations logo.webp 400w,
+    img/snapvacations logo.webp 800w,
+    img/snapvacations logo.webp 1200w
+  "
+  sizes="(max-width: 600px) 400px,
+         (max-width: 1200px) 800px,
+         1200px"
+  alt="Snap Vacations logo with mountains, a lake, and trees, representing nature-focused travel and the tagline 'Feel the Nature.'"
+  loading="lazy"
+  width="800"
+  height="600">
+
+    <nav class="desktop-nav">
+      <a href="#home">Home</a>
+      <a href="#why-choose">About Us</a>
+      <a href="#packages">Packages</a>
+      <a href="#Testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+      <button class="nav-btn" id="openPopupBtn">Get Free Quote</button>
+    </nav>
+    <button class="menu-btn" id="openCanvasBtn">☰</button>
+  </header>
+
+  <!-- OFFCANVAS -->
+  <div class="offcanvas" id="offcanvas">
+    <button class="close-btn" id="closeCanvasBtn">&times;</button>
+    <h3 style="margin-bottom:30px;">Snap Vacations</h3>
+    <a href="#home"> <i class="fa-solid fa-house"></i>Home</a>
+    <a href="#why-choose"><i class="fa-solid fa-people-group"></i>About Us</a>
+    <a href="#packages"><i class="fa-solid fa-cubes"></i>Packages</a>
+    <a href="#Testimonials"><i class="fa-solid fa-pen"></i>Testimonials</a>
+    <a href="#contact"><i class="fa-solid fa-address-card"></i>Contact</a>
+    <button class="cta-btn" id="openPopupBtnMobile">Get Free Quote</button>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <h1>Explore Kashmir Tour Packages & Travel Itineraries</h1>
+    <span>Your trusted travel partner for unforgettable Kashmir experiences — from serene houseboats to majestic valleys,<br>we craft journeys that stay with you forever</span>
+    <div class="cta-buttons">
+    <a href="tel:+916005920087"><button class="cta-btn" id="button-clr"> <i class="fa-solid fa-phone-volume"></i> Call Now</button></a>
+    <button class="cta-btn" id="heroPopupBtn"> <i class="fa-solid fa-comment"></i> Get a Quote</button>
+    </div>
+  </section>
+
+  <!-- POPUP FORM -->
+  <div class="popup" id="popup">
+    <div class="popup-content animate-popup">
+      <span class="close-popup" id="closePopupBtn">&times;</span>
+      <h3>Book Your Kashmir Trip</h3>
+      <p class="sub-text">Fill in your details and our travel expert will connect with you.</p>
+      <form id="leadForm" action="https://formsubmit.co/bisma1055@gmail.com" method="POST">
+        <input type="text" name="fullname" placeholder="Full Name" required autocomplete="off">
+        <input type="email" name="email" placeholder="Email Address" required autocomplete="off">
+        <input type="tel" name="phone" id="phone" placeholder="Enter phone number"minlength="10" maxlength="12" pattern="\d{10,12}" required autocomplete="off">
+        <select name="package" required>
+          <option value="" disabled selected>Select Kashmir Package Category</option>
+          <option value="classic">Classic Kashmir Package</option>
+          <option value="deluxe">Deluxe Kashmir Package</option>
+          <option value="premium">Premium Kashmir Package</option>
+          <option value="luxury">Luxury Kashmir Package</option>
+        </select>
+        <!-- Honeypot anti-spam -->
+        <input type="text" name="website" id="website" style="display:none;">
+
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_redirect" value="false">
+        <input type="hidden" name="_template" value="table">
+        <button type="submit">Get Free Quote</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- CONTENT -->
+  <!-- SECTION 1: Kashmir Packages -->
+<section id="packages" class="packages-section">
+  <h2>Explore Top Kashmir Tour Packages for an Unforgettable Trip</h2>
+  <div class="packages-container">
+    
+    <!-- Package 1 -->
+    <div class="package-card">
+      <img 
+  src="img/Dal Lake.webp"
+  srcset="
+    img/Dal Lake.webp 400w,
+    img/Dal Lake.webp 800w,
+    img/Dal Lake.webp 1200w
+  "
+  sizes="(max-width: 600px) 400px,
+         (max-width: 1200px) 800px,
+         1200px"
+  alt="Two colorful shikara boats on the serene waters of Dal Lake in Kashmir."
+  loading="lazy"
+  width="800"
+  height="600">
+
+      <h3>Classic Kashmir Package</h3>
+      <p>This package offers an essential and affordable Kashmir experience.</p>
+      <button class="quote-btn">Get a Quote</button>
+    </div>
+    
+    <!-- Package 2 -->
+    <div class="package-card">
+      <img 
+  src="images/Pahalgam.jpg"
+  srcset="
+    images/Pahalgam.jpg 400w,
+    images/Pahalgam.jpg 800w,
+    images/Pahalgam.jpg 1200w
+  "
+  sizes="(max-width: 600px) 400px,
+         (max-width: 1200px) 800px,
+         1200px"
+  alt="A river flowing through a forested mountain valley in Pahalgam, Kashmir."
+  loading="lazy"
+  width="800"
+  height="600">
+
+      <h3>Deluxe Kashmir Package</h3>
+      <p>A step up from the classic, this package provides a more comfortable and enhanced trip.</p>
+      <button class="quote-btn">Get a Quote</button>
+    </div>
+    
+    <!-- Package 3 -->
+    <div class="package-card">
+     <img 
+  src="images/gulmarg.jpg"
+  srcset="
+    images/gulmarg.jpg 400w,
+    images/gulmarg.jpg 800w,
+    images/gulmarg.jpg 1200w
+  "
+  sizes="(max-width: 600px) 400px,
+         (max-width: 1200px) 800px,
+         1200px"
+  alt="Vibrant purple and white wildflowers in the meadows of Gulmarg, Kashmir, with cottages and snowy mountains in the background."
+  loading="lazy"
+  width="800"
+  height="600">
+
+      <h3>Premium Kashmir Package</h3>
+      <p>This package focuses on elevating the travel experience with superior amenities.</p>
+      <button class="quote-btn">Get a Quote</button>
+    </div>
+    
+    <!-- Package 4 -->
+    <div class="package-card">
+      <img 
+  src="img/sonamarg.webp"
+  srcset="
+    img/sonamarg.webp 400w,
+    img/sonamarg.webp 800w,
+    img/sonamarg.webp 1200w
+  "
+  sizes="(max-width: 600px) 400px,
+         (max-width: 1200px) 800px,
+         1200px"
+  alt="A river flowing through a deep valley with rugged mountains in Sonamarg, Kashmir."
+  loading="lazy"
+  width="800"
+  height="600">
+
+      <h3>Luxury Kashmir Package</h3>
+      <p>The ultimate in comfort and indulgence, this package features stays in 5-star.</p>
+      <button class="quote-btn">Get a Quote</button>
+    </div>
+
+  </div>
+</section>
+
+<section class="video-section">
+  <div class="video-content">
+    <h2>Discover Affordable <br/> Kashmir Tour Packages in India</h2>
+    <p>Explore the breathtaking beauty of Kashmir with our carefully curated <strong>Kashmir tour packages India</strong>. From serene lakes to snow-capped peaks, every detail of your <strong>Kashmir travel itinerary</strong> is designed to give you an unforgettable holiday. Whether you’re searching for exclusive <strong>Kashmir holiday deals</strong> or planning your trip based on the <strong>Kashmir trip cost</strong>, we make sure you enjoy a seamless travel experience.</p>
+    <a href="#packages" class="btn-primary">Explore More</a>
+  </div>
+
+  <div class="video-box">
+    <!-- Custom Thumbnail -->
+    <div class="video-thumbnail" id="video-thumbnail">
+      <img src="img/YoutTube Video Thumbnail.webp" alt="A YouTube thumbnail with text that says 'Kashmir Gulmarg' over a beautiful winter scene of a snow-covered village in the mountains.">
+      <div class="play-btn">&#9658;</div>
+    </div>
+
+    <!-- YouTube Iframe (hidden by default) -->
+    <div class="video-iframe" id="video-iframe">
+      <iframe width="600" height="100%" src="https://www.youtube.com/embed/5Ae-1SqhyKA?si=yFQcCxCQVbYbqXq0" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- Why Choose Us Section -->
+<section class="why-choose-us" id="why-choose">
+  <div class="container">
+    <h2>Why Choose Us for Your Kashmir Tour Packages</h2>
+    <p class="subtitle">
+      Planning a trip to Kashmir? Here’s why travelers trust us for the best Kashmir tour packages, customized itineraries, and affordable holiday deals that guarantee peace of mind.
+    </p>
+
+    <div class="choose-grid">
+      <!-- Box 1 -->
+      <div class="choose-box">
+        <div class="icon"><i class="fas fa-users"></i></div>
+        <h3>Friendly & Professional Staff</h3>
+        <p>Our expert local guides ensure authentic experiences while exploring Kashmir.</p>
+        <a href="tel:916005920087">Contact Us</a>
+      </div>
+
+      <!-- Box 2 -->
+      <div class="choose-box">
+        <div class="icon"><i class="fas fa-handshake"></i></div>
+        <h3>100% Trusted Travel Partner</h3>
+        <p>We deliver safe, reliable, and verified Kashmir holiday packages for stress-free journeys.</p>
+        <a href="tel:916005920087">Contact Us</a>
+      </div>
+
+      <!-- Box 3 -->
+      <div class="choose-box">
+        <div class="icon"><i class="fas fa-award"></i></div>
+        <h3>7+ Years of Experience</h3>
+        <p>With years of expertise, we craft unforgettable Kashmir travel itineraries tailored to you.</p>
+        <a href="tel:916005920087">Contact Us</a>
+      </div>
+
+      <!-- Box 4 -->
+      <div class="choose-box">
+        <div class="icon"><i class="fas fa-dollar-sign"></i></div>
+        <h3>Cost-Effective Packages</h3>
+        <p>Enjoy budget-friendly Kashmir trip costs without compromising on comfort or quality.</p>
+        <a href="tel:916005920087">Contact Us</a>
+      </div>
+
+      <!-- Box 5 -->
+      <div class="choose-box">
+        <div class="icon"><i class="fas fa-smile"></i></div>
+        <h3>99% Happy Travelers</h3>
+        <p>Thousands of satisfied customers trust us for their Kashmir vacations every year.</p>
+        <a href="tel:916005920087">Contact Us</a>
+      </div>
+
+      <!-- Box 6 -->
+      <div class="choose-box">
+        <div class="icon"><i class="fas fa-headset"></i></div>
+        <h3>24/7 Customer Support</h3>
+        <p>Round-the-clock assistance to make your Kashmir trip smooth and worry-free.</p>
+        <a href="tel:916005920087">Contact Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="carousel">
+  <div class="carousel-track">
+    <!-- Slide 1 -->
+    <div class="slide" style="background-image: url('images/Srinagar.jpg');">
+      <div class="overlay">
+        <h2>Srinagar</h2>
+        <p>25 Places</p>
+      </div>
+      <div class="hover-overlay">
+        <div class="hover-content">
+          <h3>Venice of the East</h3>
+          <div class="rating">★★★★★</div>
+          <p>Srinagar, the summer capital of Jammu & Kashmir, is famed for its serene Dal Lake, colorful houseboats, and beautiful Mughal gardens. Surrounded by snow-capped mountains, it is often called the ‘Venice of the East’ and offers a perfect blend of nature, culture, and heritage.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="slide" style="background-image: url('images/pahalgam2.jpg');">
+      <div class="overlay">
+        <h2>Pahalgam</h2>
+        <p>12 Places</p>
+      </div>
+      <div class="hover-overlay">
+        <div class="hover-content">
+          <h3>Valley of Shepherds</h3>
+          <div class="rating">★★★★☆</div>
+          <p>Pahalgam – where emerald valleys meet snow-capped peaks, a true paradise for nature lovers.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="slide" style="background-image: url('images/gulmarg2.jpg');">
+      <div class="overlay">
+        <h2>Gulmarg</h2>
+        <p>12 Places</p>
+      </div>
+      <div class="hover-overlay">
+        <div class="hover-content">
+          <h3>Meadow of Flowers</h3>
+          <div class="rating">★★★★★</div>
+          <p>Gulmarg – where every meadow blooms into a masterpiece of nature.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 4 -->
+    <div class="slide" style="background-image: url('images/sonamarg2.jpg');">
+      <div class="overlay">
+        <h2>Sonamag</h2>
+        <p>7 Places</p>
+      </div>
+      <div class="hover-overlay">
+        <div class="hover-content">
+          <h3>Meadow of Gold</h3>
+          <div class="rating">★★★★★</div>
+          <p>Sonamarg – where golden meadows meet snow-kissed peaks.</p>
+        </div>
+      </div>
+    </div>
+
+     <!-- Slide 5 -->
+    <div class="slide" style="background-image: url('images/doodhpathri.jpg');">
+      <div class="overlay">
+        <h2>Doodhpathri</h2>
+        <p>6 Places</p>
+      </div>
+      <div class="hover-overlay">
+        <div class="hover-content">
+          <h3>Valley of Milk</h3>
+          <div class="rating">★★★★★</div>
+          <p>Doodhpathri – where nature pours its purity in every stream and meadow.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 6 -->
+    <div class="slide" style="background-image: url('images/tosa\ maidan.jpg');">
+      <div class="overlay">
+        <h2>Tosa Maidan</h2>
+        <p>5 Places</p>
+      </div>
+      <div class="hover-overlay">
+        <div class="hover-content">
+          <h3>Hidden Paradise of Kashmir</h3>
+          <div class="rating">★★★★☆</div>
+          <p>Tosa Maidan – a hidden paradise where meadows stretch as far as the eyes can see.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 7 -->
+    <div class="slide" style="background-image: url('images/lal\ chowk.jpg');">
+      <div class="overlay">
+        <h2>Lal Chowk</h2>
+        <p>5 Places</p>
+      </div>
+      <div class="hover-overlay">
+        <div class="hover-content">
+          <h3>Heart of Srinagar</h3>
+          <div class="rating">★★★★★</div>
+          <p>Lal Chowk – the vibrant heart of Srinagar where history meets hustle.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 8 -->
+    <div class="slide" style="background-image: url('images/wular\ lake.jpg');">
+      <div class="overlay">
+        <h2>Wular Lake</h2>
+        <p>6 Places</p>
+      </div>
+      <div class="hover-overlay">
+        <div class="hover-content">
+          <h3>Jewel of Kashmir</h3>
+          <div class="rating">★★★★★</div>
+          <p>Wular Lake – where the sky meets the water in perfect harmony</p>
+        </div>
+      </div>
+    </div>
+
+     <!-- Slide 9 -->
+    <div class="slide" style="background-image: url('images/manasbal\ lake.jpg');">
+      <div class="overlay">
+        <h2>Manasbal Lake</h2>
+        <p>6 Places</p>
+      </div>
+      <div class="hover-overlay">
+        <div class="hover-content">
+          <h3>Pearl of Kashmir</h3>
+          <div class="rating">★★★★★</div>
+          <p>Manasbal Lake – a serene pearl reflecting the soul of Kashmir.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 10 -->
+    <div class="slide" style="background-image: url('images/Arizal.jpg');">
+      <div class="overlay">
+        <h2>Arizal</h2>
+        <p>5 Places</p>
+      </div>
+      <div class="hover-overlay">
+        <div class="hover-content">
+          <h3>Serene Valley Retreat</h3>
+          <div class="rating">★★★★☆</div>
+          <p>Arizal – where nature whispers serenity in every meadow and stream.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 11 -->
+    <div class="slide" style="background-image: url('images/sinthantop.jpg');">
+      <div class="overlay">
+        <h2>Sinthantop</h2>
+        <p>6 Places</p>
+      </div>
+      <div class="hover-overlay">
+        <div class="hover-content">
+          <h3>Gateway to Kokernag</h3>
+          <div class="rating">★★★★★</div>
+          <p>Sinthan Top – where every peak and meadow feels like heaven on Earth.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 12 -->
+    <div class="slide" style="background-image: url('images/gurez.jpg');">
+      <div class="overlay">
+        <h2>Gurez</h2>
+        <p>7 Places</p>
+      </div>
+      <div class="hover-overlay">
+        <div class="hover-content">
+          <h3>Paradise of the North</h3>
+          <div class="rating">★★★★★</div>
+          <p>Gurez Valley – where untouched nature and tranquil rivers create a timeless paradise</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Repeat more slides up to 12 -->
+  </div>
+
+  <!-- Navigation Arrows -->
+  <button class="prev">&#10094;</button>
+  <button class="next">&#10095;</button>
+</section>
+
+
+<section class="contact-section" id="contact">
+  <div class="contact-container">
+    
+    <!-- Left Side -->
+    <div class="contact-left">
+      <h2>Contact Snap Vacations – Your Kashmir Travel Experts</h2>
+      <p class="intro-text">
+       Planning your Kashmir trip? Get in touch with Snap Vacations for customized tour packages, detailed itineraries, and exclusive Kashmir holiday deals. Our Srinagar-based team is always ready to guide you.
+      </p>
+      <div class="info-item">
+        <div class="icon-circle"><i class="fas fa-map-marker-alt"></i></div>
+        <div style="margin-top:7px;">
+          <h4>Address:</h4>
+          <p>Near Nai Sarak Ganpatyar, Habba Kadal, Srinagar,<br/>  Jammu & Kashmir – 190001
+          </p>
+        </div>
+      </div>
+      <div class="info-item">
+        <div class="icon-circle"><i class="fas fa-phone"></i></div>
+        <div style="margin-top:7px;">
+          <h4>Phone:</h4>
+          <a href="tel:+916005920087"><p>+91 6005920087</p></a>
+        </div>
+      </div>
+      <div class="info-item">
+        <div class="icon-circle"><i class="fas fa-envelope"></i></div>
+        <div style="margin-top:7px;">
+          <h4>Email:</h4>
+          <a href="mailto:info.snapvacations@gmail.com?subject=Kashmir Tour Package&body=I want to book kashmir tour package"><p>info.snapvacations@gmail.com</p></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Side -->
+    <div class="contact-right">
+      <h3>Get Your Free Kashmir Tour Package Quote</h3>
+      <div class="form-box">
+    <form class="leadForm" action="https://formsubmit.co/bisma1055@gmail.com" method="POST">
+    <input type="text" name="fullname" placeholder="Full Name*" required autocomplete="off">
+    <input type="email" name="email" placeholder="Email Address*" required autocomplete="off">
+    <input type="tel" name="phone" placeholder="phone number" minlength="10" maxlength="12" pattern="\d{10,12}" required autocomplete="off">
+    <select name="package" required>
+      <option value="" disabled selected>Select Kashmir Package Category</option>
+      <option value="classic">Classic Kashmir Package</option>
+      <option value="deluxe">Deluxe Kashmir Package</option>
+      <option value="premium">Premium Kashmir Package</option>
+      <option value="luxury">Luxury Kashmir Package</option>
+    </select>
+
+    <!-- Honeypot -->
+    <input type="text" name="website" style="display:none;">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_redirect" value="false">
+    <input type="hidden" name="_template" value="table">
+    <button type="submit">Get Free Quote</button>
+  </form>
+    </div>
+      </div>
+        </div>
+</section>
+
+<section class="reviews-section" id="Testimonials">
+  <h2>Read Reviews from Our <br/> Happy Kashmir Travelers</h2>
+  <p id="para-test">Planning your dream vacation? See what our clients have to say about the value of our <strong>Kashmir holiday deals</strong>, the smooth <strong>Kashmir travel itinerary</strong>, and how we helped them manage their <strong>Kashmir trip cost</strong> with our expertly designed <strong>Kashmir tour packages India</strong>.</p>
+
+  <div class="reviews-slider">
+    <div class="reviews-track">
+
+      <div class="review-card">
+        <img src="img/Rohan Kumar Testimonial.webp" alt="A joyful family photo of Rohan Kumar, his wife, children, and parents enjoying their Kashmir vacation amidst lush meadows and snow-capped peaks.">
+        <h3>Rohan Kumar</h3>
+        <h4>Delhi | Family Trip</h4>
+        <div class="review-stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <p>" Honestly, planning a trip for my entire family, from my parents to my two kids, felt impossible. But Snap Vacations just got it. Our Kashmir tour package was a perfect mix of relaxing boat rides and fun in the snow. They took care of every little detail, and for a big group like ours, that was a lifesaver. It was just a magical trip for everyone. "</p>
+      </div>
+
+      <div class="review-card">
+        <img src="images/Anjali Mehta testimonial.png" alt="A joyful group selfie of Anjali and her friends, celebrating their amazing trip to Kashmir with a stunning mountain view.">
+        <h3>Anjali Mehta</h3>
+        <h4>Mumbai | Friends' Trip</h4>
+        <div class="review-stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <p>" As a group of friends, we were on a budget but still wanted to do everything. Snap Vacations hooked us up with an amazing Kashmir holiday deal. The itinerary was so much fun—it felt like we were always doing something new. There was no stress, no confusion, just good vibes and beautiful scenery. Seriously, we couldn't have planned it better ourselves! "</p>
+      </div>
+
+      <div class="review-card">
+        <img src="images/Viram singh testinmonial.png" alt="Vikram Singh and his team on a corporate offsite in Kashmir, toasting with mugs in the falling snow.">
+        <h3>Vikram Singh</h3>
+        <h4>Banglore | Corporate Offsite</h4>
+        <div class="review-stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <p>" I was in charge of our company's offsite trip, and let's just say, a group of 25 people is a lot to manage. Snap Vacations made me look like a hero. The whole trip ran like clockwork. They handled all the logistics for our big group so we could focus on our team-building and, of course, having a blast in Kashmir. Super professional and highly recommended. "</p>
+      </div>
+
+      <div class="review-card">
+        <img src="images/Preeti Sharma testimonial.png" alt="Preeti Sharma and her husband sharing a romantic moment on their honeymoon in Kashmir at sunset.">
+        <h3>Preeti Sharma</h3>
+        <h4>Kolkata | Honeymooners</h4>
+        <div class="review-stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <p>" Our honeymoon to Kashmir was a dream come true. From the moment we landed, we were completely taken care of. The Kashmir trip cost was so fair and straightforward, which was a huge relief. We just had to show up and enjoy the gorgeous views. Snap Vacations truly gave us the perfect, romantic start to our new life together. "</p>
+      </div>
+
+      <div class="review-card">
+        <img src="images/Kaito Sato testimonial.png" alt="Kaito Sato, a solo traveler, captures a stunning selfie with the beautiful Kashmir mountains and lake behind him.">
+        <h3>Kaito Sato</h3>
+        <h4>Tokyo | Solo Traveler</h4>
+        <div class="review-stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <p>" I've always wanted to see Kashmir, but going alone felt a bit daunting. I’m so glad I chose Snap Vacations. They made me feel so safe and welcome. I met some great people, and the whole Kashmir tour package was so well-organized. It was an unforgettable adventure. I'm already thinking about my next trip with them! "</p>
+      </div>
+
+      <div class="review-card">
+        <img src="images/Rajesh Gupta.png" alt="Rajesh Gupta and his wife sitting peacefully by a serene lake in Kashmir, with majestic snow-capped mountains in the background.">
+        <h3>Rajesh Gupta</h3>
+        <h4>Hyderabad | Retired couple</h4>
+        <div class="review-stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <p>" After all these years, we finally got to see Kashmir. We were a little worried about travel at our age, but Snap Vacations' Kashmir tour package was a blessing. The pace was perfect, and the team was so kind and considerate. Everything was taken care of, from comfortable stays to easy transport. We just got to relax and enjoy the beautiful scenery. Thank you for making our golden years trip so special. "</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- fixed-btns -->
+<div class="fixed-btns">
+ <a href="tel:916005920087"> <div class="call-btn">
+    <i class="fa-solid fa-phone"></i>
+  </div> </a>
+  <a href="https://wa.link/d6smx9" target="_blank"><div class="wapp-btn">
+    <i class="fa-brands fa-whatsapp"></i>
+  </div> </a>
+</div>
+
+
+
+
+<footer class="snap-footer">
+  <div class="snap-footer-container">
+
+    <!-- Left Section -->
+    <div class="snap-footer-left">
+      <img src="img/snapvacations logo.webp" alt="Snap Vacations logo with mountains, a lake, and trees, representing nature-focused travel and the tagline 'Feel the Nature." class="snap-footer-logo">
+      <p>
+        Snap Vacations is your trusted partner for unforgettable journeys to paradise. We specialize in expertly crafted Kashmir tour packages, designed for every type of traveler. Our passion is helping you and your group feel the nature and create memories that last a lifetime.
+      </p>
+      <div class="snap-footer-social">
+        <a href="https://www.facebook.com/share/1MFw5BcKNZ/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/snap_vacations?igsh=MW5wczEyOHJncG90" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.link/d6smx9" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+    </div>
+
+    <!-- Right Section -->
+    <div class="snap-footer-right">
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#packages">Popular Packages</a></li>
+          <li><a href="#why-choose">About Us</a></li>
+          <li><a href="#Testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>FAQ</h4>
+        <ul>
+          <li><a href="#packages">How much does it cost?</a></li>
+          <li><a href="#contact">How can I apply?</a></li>
+          <li><a href="#contact">What is the process?</a></li>
+          <li><a href="#contact">How can guides help us?</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Us</h4> 
+        <ul>
+          <li> <a href="mailto:info.snapvacations@gmail.com?subject=Kashmir Tour Package&body=I want to book kashmir tour package">info.snapvacations@gmail.com</a></li>
+          <li> <a href="tel:+916005920087">+91-6005920087</a></li>
+          <li>Near Nai Sarak Ganpatyar, Habba Kadal, Srinagar,<br> Jammu & Kashmir – 190001</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Bar -->
+  <div class="snap-footer-bottom">
+    <p>© 2025 Snap Vacations | Developed by Anees Bhat</p>
+  </div>
+</footer>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="script.js"></script>
+<script src="gsap.js"></script>
+<script>
+(function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="XM1G5d_wg68qmIvHlZlbT";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+</script>
+</html>
